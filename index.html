@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--My personal fontaawesome cdn-->
+    <script
+      src="https://kit.fontawesome.com/433b2359bf.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Font families-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -18,7 +23,7 @@
     <title>Welcome</title>
   </head>
   <body>
-    <section>
+    <section class="landing--top">
       <!--navigation-->
       <nav>
         <a href="#" class="logo"><img src="images/logo.jpg" alt="logo" /></a>
@@ -27,8 +32,10 @@
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#">View CV</a></li>
         </ul>
+        <!--nav oggle bars-->
+        <div class="toggle"></div>
       </nav>
       <!--text-container---------------------->
       <div class="text">
@@ -63,23 +70,69 @@
         <button class="about--btn about--btn__view">View CV</button>
       </div>
     </div>
-    <div class="services">
-      <p class="services--p">Services</p>
-    </div>
-    <!--box-->
-    <div class="box">
-      <div class="box--1">
-        <span class="box--span">1</span>
-        <h5 class="box--heading">Web Development</h5>
-        <p class="box--p">lorem</p>
-        <button class="box--btn">Read More</button>
+    <section id="services">
+      <div class="services">
+        <h3 class="services--h">Services</h3>
+        <p class="services--p">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+          delectus perspiciatis rerum a ad repudiandae? Architecto laudantium
+          modi a iure sint aliquam neque. Repudiandae ullam illo deleniti
+          officiis autem obcaecati minus alias, unde quae vero ducimus repellat
+          excepturi magnam accusamus? Modi error eos at iste molestiae similique
+          suscipit quam tempore?
+        </p>
       </div>
-      <div class="box--2">
-        <span class="box--span">2</span>
-        <h5 class="box--heading">Tutoring/Coaching</h5>
-        <p class="box--p">lorem</p>
-        <button class="box--btn">Read More</button>
+      <!--box-->
+      <div class="box">
+        <div class="box--1">
+          <span class="box--span">1</span>
+          <h5 class="box--heading">Web Design</h5>
+          <p class="box--p">lorem</p>
+          <button class="box--btn">Read More</button>
+        </div>
+        <div class="box--2">
+          <span class="box--span">2</span>
+          <h5 class="box--heading">Web Development</h5>
+          <p class="box--p">lorem</p>
+          <button class="box--btn">Read More</button>
+        </div>
+        <div class="box--3">
+          <span class="box--span">3</span>
+          <h5 class="box--heading">Tutoring/Coaching</h5>
+          <p class="box--p">lorem</p>
+          <button class="box--btn">Read More</button>
+        </div>
       </div>
+    </section>
+    <!--contact-me-->
+    <div class="contact">
+      <p class="contact--p">If You Have Any Project In Your Mind ?</p>
+      <button class="contact--btn">Contact me</button>
     </div>
+    <!--footer-->
+    <footer class="footer">
+      <h3 class="footer--h">Need A Website???</h3>
+      <p class="footer--p">
+        Speed, Reliability & Satisfaction <br />
+        GUARANTEED
+      </p>
+      <!--footer-fontawesome-->
+      <div class="footer--social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-envelope-o"></i></a>
+      </div>
+      <!--copyright-->
+      <p class="copyright">&copy; Tony Edgal 2021</p>
+    </footer>
+    <div class="sidebar--social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-envelope-o"></i></a>
+    </div>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
