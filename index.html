@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--My personal fontaawesome cdn-->
+    <script
+      src="https://kit.fontawesome.com/433b2359bf.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Font families-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -18,25 +23,47 @@
     <title>Welcome</title>
   </head>
   <body>
-    <section>
+    <section class="landing--top">
       <!--navigation-->
       <nav>
         <a href="#" class="logo"><img src="images/logo.jpg" alt="logo" /></a>
         <!--menu-->
         <ul>
           <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resume</a></li>
+          <li>
+            <a href="https://github.com/tonyedgal" target="_blank">Github</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/tonyedgal?tab=repositories"
+              target="_blank"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1EeC9cM8D2mID0P204PPy1UKrScFzrakk/view?usp=sharing"
+              target="_blank"
+              >View CV</a
+            >
+          </li>
         </ul>
+        <!--nav oggle bars-->
+        <div class="toggle"></div>
       </nav>
       <!--text-container---------------------->
       <div class="text">
         <p class="text--p text--p__1">Hello,</p>
         <p class="text--p text--p__2">I'M TONY</p>
         <p class="text--p text--p__3">A Front-end Web Developer</p>
-        <button class="text--btn text--btn__hire">Hire me</button>
-        <button class="text--btn text--btn__view">View CV</button>
+        <a href="mailto:tonyedgal@gmail.com" target="_blank"
+          ><button class="text--btn text--btn__hire">Hire me</button></a
+        >
+        <a
+          href="https://drive.google.com/file/d/1EeC9cM8D2mID0P204PPy1UKrScFzrakk/view?usp=sharing"
+          target="_blank"
+          ><button class="text--btn text--btn__view">View CV</button></a
+        >
       </div>
       <!--model-->
       <img src="images/model.png" class="model" alt="model" />
@@ -59,27 +86,103 @@
           I also tutor/assist aspiring developers, guiding you to find the right
           materials, resources and career learning paths.
         </p>
-        <button class="about--btn about--btn__hire">Hire me</button>
-        <button class="about--btn about--btn__view">View CV</button>
+        <a href="mailto:tonyedgal@gmail.com" target="_blank"
+          ><button class="about--btn about--btn__hire">Hire me</button></a
+        >
+        <a
+          href="https://drive.google.com/file/d/1EeC9cM8D2mID0P204PPy1UKrScFzrakk/view?usp=sharing"
+          target="_blank"
+          ><button class="about--btn about--btn__view">View CV</button></a
+        >
       </div>
     </div>
-    <div class="services">
-      <p class="services--p">Services</p>
-    </div>
-    <!--box-->
-    <div class="box">
-      <div class="box--1">
-        <span class="box--span">1</span>
-        <h5 class="box--heading">Web Development</h5>
-        <p class="box--p">lorem</p>
-        <button class="box--btn">Read More</button>
+    <section id="services">
+      <div class="services">
+        <h3 class="services--h">Services</h3>
+        <p class="services--p">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+          delectus perspiciatis rerum a ad repudiandae? Architecto laudantium
+          modi a iure sint aliquam neque. Repudiandae ullam illo deleniti
+          officiis autem obcaecati minus alias, unde quae vero ducimus repellat
+          excepturi magnam accusamus? Modi error eos at iste molestiae similique
+          suscipit quam tempore?
+        </p>
       </div>
-      <div class="box--2">
-        <span class="box--span">2</span>
-        <h5 class="box--heading">Tutoring/Coaching</h5>
-        <p class="box--p">lorem</p>
-        <button class="box--btn">Read More</button>
+      <!--box-->
+      <div class="box">
+        <div class="box--1">
+          <span class="box--span">1</span>
+          <h5 class="box--heading">Web Design</h5>
+          <p class="box--p">lorem</p>
+          <button class="box--btn">Read More</button>
+        </div>
+        <div class="box--2">
+          <span class="box--span">2</span>
+          <h5 class="box--heading">Web Development</h5>
+          <p class="box--p">lorem</p>
+          <button class="box--btn">Read More</button>
+        </div>
+        <div class="box--3">
+          <span class="box--span">3</span>
+          <h5 class="box--heading">Tutoring/Coaching</h5>
+          <p class="box--p">lorem</p>
+          <button class="box--btn">Read More</button>
+        </div>
       </div>
+    </section>
+    <!--contact-me-->
+    <div class="contact">
+      <p class="contact--p">If You Have Any Project In Your Mind ?</p>
+      <a
+        href="https://drive.google.com/file/d/1EeC9cM8D2mID0P204PPy1UKrScFzrakk/view?usp=sharing"
+        target="_blank"
+        ><button class="contact--btn">View CV</button></a
+      >
     </div>
+    <!--footer-->
+    <footer class="footer">
+      <h3 class="footer--h">Need A Website???</h3>
+      <p class="footer--p">
+        Speed, Reliability & Satisfaction <br />
+        GUARANTEED
+      </p>
+      <!--footer-fontawesome-->
+      <div class="footer--social">
+        <a href="https://www.facebook.com/tony.edgal" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.twitter.com/IamTony_danza" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/iamtony_danza" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/anthony-edgal-8ba13715b"
+          target="_blank"
+          ><i class="fa fa-linkedin-square"></i
+        ></a>
+      </div>
+      <!--copyright-->
+      <p class="copyright">&copy; Tony Edgal 2021</p>
+    </footer>
+    <div class="sidebar--social">
+      <a href="https://www.facebook.com/tony.edgal" target="_blank"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a href="https://www.twitter.com/IamTony_danza" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a href="https://www.instagram.com/iamtony_danza" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/anthony-edgal-8ba13715b"
+        target="_blank"
+        ><i class="fa fa-linkedin-square"></i
+      ></a>
+    </div>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
