@@ -2,6 +2,7 @@ body {
   background-color: #f6f5f5;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Assistant", sans-serif;
 }
 
@@ -129,7 +130,7 @@ nav ul li a {
 
 .about {
   width: 80%;
-  height: 20rem;
+  height: auto;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
@@ -146,6 +147,8 @@ nav ul li a {
 
 .about--text {
   width: 40rem;
+  padding-bottom: 5px;
+  margin: 20px 10px;
 }
 
 .about--text__p1 {
@@ -163,10 +166,10 @@ nav ul li a {
   line-height: 5px;
 }
 
-.about--text__p3,
-.about--text__p4 {
+.about--text__p3 {
   color: #7e7d7d;
   font-size: 1rem;
+  text-align: justify;
 }
 
 .about--btn {
@@ -186,9 +189,10 @@ nav ul li a {
 }
 
 #services {
-  height: 600px;
+  height: auto;
   background-color: #ffffff;
   padding: 2% 10% 0;
+  margin-bottom: 20px;
 }
 
 .services--h {
@@ -258,13 +262,6 @@ nav ul li a {
   font-family: "Open Sans", sans-serif;
   font-size: 23px;
   line-height: 0px;
-}
-
-.box--p {
-  color: #8f8f8f;
-  text-align: center;
-  width: 14rem;
-  margin: 0px 0px 20px 0px;
 }
 
 .box--btn {
@@ -426,19 +423,6 @@ nav ul li a {
     text-align: justify;
   }
 
-  /*.about--text__p1 {
-    font-size: 1.225rem;
-  }
-
-  .about--text__p2 {
-    font-size: 0.6rem;
-  }
-
-  .about--text__p3,
-  .about--text__p4 {
-    font-size: 0.9rem;
-  } */
-
   #services {
     height: auto;
     padding: 2% 5% 0;
@@ -561,8 +545,7 @@ nav ul li a {
     text-align: center;
   }
 
-  .about--text__p3,
-  .about--text__p4 {
+  .about--text__p3 {
     text-align: justify;
   }
 
