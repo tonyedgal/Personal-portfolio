@@ -120,14 +120,6 @@ nav ul li a {
   transform: scale(1.1);
 }
 
-.model {
-  height: 35rem;
-  position: absolute;
-  bottom: 0.6rem;
-  left: 70%;
-  transform: translateX(-70%);
-}
-
 .about {
   width: 80%;
   height: auto;
@@ -395,11 +387,6 @@ nav ul li a {
   * {
     box-sizing: border-box;
   }
-  .model {
-    height: 29rem;
-    left: 90%;
-    transform: translateX(-90%);
-  }
 
   .text {
     top: 46%;
@@ -458,10 +445,6 @@ nav ul li a {
   .landing--top {
     background-image: none;
     background-color: #f7f7f7;
-  }
-
-  .model {
-    display: none;
   }
 
   .text {
