@@ -455,7 +455,7 @@ nav ul li a {
 
   #landing {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     position: absolute;
     left: 50%;
     top: 50%;
